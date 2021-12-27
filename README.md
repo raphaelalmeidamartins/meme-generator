@@ -91,7 +91,7 @@
       <li>Even if there's no inserted image, the text element should still be visible inside the empty container.</li>
     </ul>
   </li>
-  <li>The user should be able to upload a image from their computer/device.
+  <li>The user should be able to upload an image from their computer/device.
     <ul>
       <li>Inside the container, you should add another element that's going to display the inserted image. This element should have <code>meme-image</code> as its <code>id</code>;</li>
       <li>The element where the user can upload the image should have <code>meme-insert</code> as its <code>id</code>. This element doesn't need to be inside the container;</li>
@@ -99,7 +99,7 @@
       <li>The inserted text <code>text-input</code> should be on the chosen image <code>meme-image</code>.</li>
     </ul>
   </li>
-  <li>Add a border to the container. It should be 1 pixel, <code>solid</code> and black. The area where the imagem is going to be displayed should have white as its background color.
+  <li>Add a border to the container. It should be 1 pixel, <code>solid</code> and black. The area where the image is going to be displayed should have white as its background color.
     <ul>
       <li>The container should have white as its background ground color;</li>
       <li>The container should have a 1 pixel solid black border;</li>
@@ -107,7 +107,7 @@
   </li>
   <li>The text displayed on the image should have a color, shadow and size as follows:
     <ul>
-      <li>The text of the element <code>meme-text</code> should have a black shadow with 5 pixels on the x asis, 5 pixels on the y ais, and 5 pixels of blur radius;</li>
+      <li>The text of the element <code>meme-text</code> should have a black shadow with 5 pixels on the X axis, 5 pixels on the Y axis, and 5 pixels of blur radius;</li>
       <li>The text of the element <code>meme-text</code> should have a font size of 30 pixels;</li>
     </ul>
   </li>
@@ -120,7 +120,7 @@
 
 ### Bonus
 <ol start="6">
-  <li>The user should be able to customize the border of the meme using three pre-defined styles. The page should have three buttons that when clicked, each one should switch the border of the container.
+  <li>The user should be able to customize the border of the meme using three pre-defined styles. The page should have three buttons that, when clicked, each one should switch the border of the container.
     <ul>
       <li>The borders should be applied to the element <code>meme-image-container</code>;</li>
       <li>The three buttons should be <code>button</code> elements;</li>
@@ -135,10 +135,10 @@
       <li>After one of the three borders is applied, the default border should no longer appears;</li>
     </ul>
   </li>
-  <li>Add to the page four images of famous memes that the user can choose instead of uploading an image. Display miniatures of the images and, when the user clicks in one of the them, they should be inserted inside the container as the inserted image.
+  <li>Add to the page four images of famous memes that the user can choose instead of uploading an image. Display miniatures of the images and, when the user clicks in one of them, they should be inserted inside the container as the inserted image.
     <ul>
       <li>The element that displays the miniatures should have <code>meme-1</code> as the <code>id</code> of the first meme, <code>meme-2</code> as the <code>id</code> of the second one, <code>meme-3</code> as the <code>id</code> of the third one, and <code>meme-4</code> as the <code>id</code> of the fourth one.</li>
-      <li>The images of these memes should be stored on the server, in a directory named <code>imgs</code> with the repective names: <code>meme1.png</code>, <code>meme2.png</code>, <code>meme3.png</code> and <code>meme4.png</code>. Pay attention to the extension of the files!</li>
+      <li>The images of these memes should be stored on the server, in a directory named <code>imgs</code> with the respective names: <code>meme1.png</code>, <code>meme2.png</code>, <code>meme3.png</code> and <code>meme4.png</code>. Pay attention to the extension of the files!</li>
       <li>When selected, the images should be displayed inside the container the same way as the uploaded ones.</li>
     </ul>
   </li>
