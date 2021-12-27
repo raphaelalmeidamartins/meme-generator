@@ -117,6 +117,7 @@ button:hover {
 }
 
 #meme-image-container {
+  position: relative;
   float: left;
   background-color: white;
   border-radius: 10px;
