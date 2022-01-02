@@ -4,7 +4,7 @@
 
 # Meme Generator
 <h2>:brazil: Português</h2>
-<p id="pt">Projeto de HTML, CSS e JavaScript desenvolvido por mim (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) ao final do Bloco 5 do Módulo 1 do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. Obtive aprovação com 100% dos requisitos obrigatórios e opcionais atingidos, e seguindo as todas as regras de padronização do código e boas práticas do Linter.</p>
+<p id="pt">Projeto de HTML, CSS e JavaScript desenvolvido por mim (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) ao final do Bloco 5 do Módulo 1 do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. Obtive aprovação com 100% dos requisitos obrigatórios e opcionais atingidos.</p>
 <p>O projeto consistiu no desenvolvimento de uma página web dinâmica e interativa em que a pessoa usuária pode criar um meme carregando uma imagem de seu computador/dispositivo e adicionando um texto sobre ela. Também é possível alterar a borda com estilos pré-configurados.</p>
 <p><a href="https://raphaelalmeidamartins.github.io/project-meme-generator/" target="_blank">Clique aqui</a> para conferir o resultado do projeto no navegador.</p>
 
@@ -75,15 +75,15 @@
 <br>
 
 <h2 id="en">:us: English</h2>
-<p>Project of HTML, CSS and JavaScript develop by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) in the end of the Unit 5 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met, and following all the Linter rules of best practices and code standardization.</p>
-<p>We had to develop a dynamic and interactive web page that the user can create a meme by uploading an image from their computer/device and by adding a text on the image. It's also possible to change the image border using pre-set styles.</p>
+<p>Project of HTML, CSS, and JavaScript developed by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) at the end of the Unit 5 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met.</p>
+<p>We had to develop a dynamic and interactive web page where it's possible to create a meme. The user can upload an image from their computer/device and add text to the picture. It's also possible to change the image border using pre-set styles.</p>
 <p><a href="https://raphaelalmeidamartins.github.io/project-meme-generator/" target="_blank">Click here</a> to check out the final version of the project on your browser.</p>
 
 ![My grade of the project - Minha nota no projeto](./nota.png)
 
 ### Requirements
 <ol>
-  <li>Add a text box that the user can insert a text on a chosen image.
+  <li>Add a text box the user can insert text on a chosen image.
     <ul>
       <li>The text box should have <code>text-input</code> as its <code>id</code>;</li>
       <li>You have to create an element that's going to be a "container" for the image and the text of the meme. This element should have <code>meme-image-container</code> as its <code>id</code>;</li>
@@ -102,12 +102,12 @@
   <li>Add a border to the container. It should be 1 pixel, <code>solid</code> and black. The area where the image is going to be displayed should have white as its background color.
     <ul>
       <li>The container should have white as its background ground color;</li>
-      <li>The container should have a 1 pixel solid black border;</li>
+      <li>The container should have a 1-pixel solid black border;</li>
     </ul>
   </li>
-  <li>The text displayed on the image should have a color, shadow and size as follows:
+  <li>The text displayed on the image should have a color, shadow, and size as follows:
     <ul>
-      <li>The text of the element <code>meme-text</code> should have a black shadow with 5 pixels on the X axis, 5 pixels on the Y axis, and 5 pixels of blur radius;</li>
+      <li>The text of the element <code>meme-text</code> should have a black shadow with 5 pixels on the X-axis, 5 pixels on the Y-axis, and 5 pixels of blur radius;</li>
       <li>The text of the element <code>meme-text</code> should have a font size of 30 pixels;</li>
     </ul>
   </li>
@@ -120,25 +120,25 @@
 
 ### Bonus
 <ol start="6">
-  <li>The user should be able to customize the border of the meme using three pre-defined styles. The page should have three buttons that, when clicked, each one should switch the border of the container.
+  <li>The user should be able to customize the border of the meme using three pre-defined styles. The page should have three buttons that, when clicked, should switch the border of the container.
     <ul>
       <li>The borders should be applied to the element <code>meme-image-container</code>;</li>
       <li>The three buttons should be <code>button</code> elements;</li>
       <li>Each <code>button</code> element should have as its background color the same color that's going to be applied to the border of the container;</li>
       <li>Each <code>button</code> element should have an <code>id</code> and style the container as follows:
         <ul>
-          <li>A button with <code>fire</code> as its <code>id</code> should apply to the container a 3 pixels dashed red border.</li>
-          <li>A button with <code>water</code> as its <code>id</code> should apply to the container a 5 pixels double blue border.</li>
-          <li>A button with <code>earth</code> as its <code>id</code> should apply to the container a 6 pixels groove green border.</li>
+          <li>A button with <code>fire</code> as its <code>id</code> should apply to the container a 3-pixels dashed red border.</li>
+          <li>A button with <code>water</code> as its <code>id</code> should apply to the container a 5-pixels double blue border.</li>
+          <li>A button with <code>earth</code> as its <code>id</code> should apply to the container a 6-pixels groove green border.</li>
         </ul>
       </li>
-      <li>After one of the three borders is applied, the default border should no longer appears;</li>
+      <li>After one of the three borders is applied, the default border should no longer appear;</li>
     </ul>
   </li>
-  <li>Add to the page four images of famous memes that the user can choose instead of uploading an image. Display miniatures of the images and, when the user clicks in one of them, they should be inserted inside the container as the inserted image.
+  <li>Add to the page four images of famous memes that the user can choose instead of uploading an image. Display miniatures of the images and, when the user clicks on one of them, they should be inserted inside the container as the inserted image.
     <ul>
       <li>The element that displays the miniatures should have <code>meme-1</code> as the <code>id</code> of the first meme, <code>meme-2</code> as the <code>id</code> of the second one, <code>meme-3</code> as the <code>id</code> of the third one, and <code>meme-4</code> as the <code>id</code> of the fourth one.</li>
-      <li>The images of these memes should be stored on the server, in a directory named <code>imgs</code> with the respective names: <code>meme1.png</code>, <code>meme2.png</code>, <code>meme3.png</code> and <code>meme4.png</code>. Pay attention to the extension of the files!</li>
+      <li>The images of these memes should be stored on the server, in a directory named <code>imgs</code> with the respective names: <code>meme1.png</code>, <code>meme2.png</code>, <code>meme3.png</code>, and <code>meme4.png</code>. Pay attention to the extension of the files!</li>
       <li>When selected, the images should be displayed inside the container the same way as the uploaded ones.</li>
     </ul>
   </li>
