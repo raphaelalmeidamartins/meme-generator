@@ -135,7 +135,7 @@
       <li>After one of the three borders is applied, the default border should no longer appear;</li>
     </ul>
   </li>
-  <li>Add to the page four images of famous memes that the user can choose instead of uploading an image. Display miniatures of the images and, when the user clicks on one of them, they should be inserted inside the container as the inserted image.
+  <li>Add to the page four images of famous memes that the user can choose instead of uploading an image. Display miniatures of the images and, when the user clicks one of them, they should be inserted inside the container as the inserted image.
     <ul>
       <li>The element that displays the miniatures should have <code>meme-1</code> as the <code>id</code> of the first meme, <code>meme-2</code> as the <code>id</code> of the second one, <code>meme-3</code> as the <code>id</code> of the third one, and <code>meme-4</code> as the <code>id</code> of the fourth one.</li>
       <li>The images of these memes should be stored on the server, in a directory named <code>imgs</code> with the respective names: <code>meme1.png</code>, <code>meme2.png</code>, <code>meme3.png</code>, and <code>meme4.png</code>. Pay attention to the extension of the files!</li>
