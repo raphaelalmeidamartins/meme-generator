@@ -12,7 +12,7 @@ const meme3 = document.getElementById('meme-3');
 const meme4 = document.getElementById('meme-4');
 
 function addTextToMeme() {
-  memeText.innerHTML = inputText.value;
+  memeText.textContent = inputText.value;
 }
 
 inputText.addEventListener('keyup', addTextToMeme);
