@@ -10,6 +10,11 @@ We had to develop a dynamic and interactive web page where it's possible to crea
 
 [Click here](https://raphaelalmeidamartins.github.io/meme-generator/) to check out the final version of the project on your browser.
 
+## :man_technologist: Developed Skills
+
+* Use the DOM API to access HTML elements
+* React to user interations by using event listeners
+
 ## :hammer_and_wrench: Tools
 
 * HTML5
